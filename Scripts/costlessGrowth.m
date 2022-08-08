@@ -61,9 +61,9 @@ function costlessGrowth(saveFileName,modelsFile,CSourceFile,minMedFile,numSpecie
 %% Load files and initialize COBRA toolbox
 
 addpath('Library/gurobi952/macos_universal2/matlab');
-addpath('/Users/nikitavakoli/Desktop/CostlessExchange-master/Scripts/Models');
-addpath('/Users/nikitavakoli/Desktop/CostlessExchange-master/Scripts/Medium');
-addpath('/Users/nikitavakoli/Desktop/CostlessExchange-master/Scripts/Results');
+addpath('/Users/nikitavakoli/Documents/GitHub/collabProject/Scripts/Models');
+addpath('/Users/nikitavakoli/Documents/GitHub/collabProject/Scripts/Medium');
+addpath('/Users/nikitavakoli/Documents/GitHub/collabProject/Scripts/Results');
 
 initCobraToolbox(false);
 changeCobraSolver('gurobi')
